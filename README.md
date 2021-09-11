@@ -1,2 +1,2 @@
-# events-app
+# events_app
 App for event management
