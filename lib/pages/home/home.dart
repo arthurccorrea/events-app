@@ -13,10 +13,13 @@ class _HomeState extends State<Home> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("EU amo roxo!",
-            style: TextStyle(color: Colors.purple.shade800)),
+        title: Text("Eventos", style: TextStyle(color: Colors.purple.shade800)),
       ),
       body: EventList(),
+      floatingActionButton: FloatingActionButton(
+        onPressed: () {},
+        child: const Icon(Icons.add),
+      ),
     );
   }
 }
